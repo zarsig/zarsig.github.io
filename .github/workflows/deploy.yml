@@ -17,5 +17,5 @@ jobs:
           key: ${{ secrets.VPS_KEY }}
           script: |
             cd ~/project
-            git pull origin master
+            git pull origin main
             docker compose up -d --build
